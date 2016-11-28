@@ -16,16 +16,16 @@ Version: 201611115b
 	padding: 0px;
 }
 
-.st-main, 
-article, 
-.st-.st-aside, 
-header, 
-canvas, 
-details, 
-figcaption, 
-figure, footer, 
-nav, 
-section, 
+.st-main,
+article,
+.st-.st-aside,
+header,
+canvas,
+details,
+figcaption,
+figure, footer,
+nav,
+section,
 summary {
 	display: block;
 }
@@ -56,9 +56,9 @@ hr.hrcss {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.fa-question-circle, 
-.fa-check-circle, 
-.fa-exclamation-triangle, 
+.fa-question-circle,
+.fa-check-circle,
+.fa-exclamation-triangle,
 .fa-pencil-square-o,
 .fa-user {
 	margin-right:5px;
@@ -74,8 +74,8 @@ a:hover {
 	color: #b22222;
 }
 
-img, 
-video, 
+img,
+video,
 object {
 	max-width: 100%;
 	height: auto;
@@ -98,7 +98,7 @@ a:hover img {
 	border: solid 1px #ccc;
 }
 
-img.size-full, 
+img.size-full,
 img.size-large {
 	margin-bottom: 10px;
 	height: auto;
@@ -109,8 +109,8 @@ iframe {
 	max-width: 100%;
 }
 
-.resetwidth img, 
-.resetwidth video, 
+.resetwidth img,
+.resetwidth video,
 .resetwidth object,
 .resetwidth iframe{
 	width: initial; /* 初期状態にリセット */
@@ -306,7 +306,7 @@ header .descr {
 */
 
 /* 記事タイトル */
-.entry-title, 
+.entry-title,
 .post .entry-title {
 	font-size: 22px;
 	line-height: 35px;
@@ -394,7 +394,7 @@ dd h3 a {
 	margin-bottom: 10px;
 }
 
-.wp-caption-text a, 
+.wp-caption-text a,
 .wp-caption-text {
 	font-size: 12px;
 	color: #ccc;
@@ -694,7 +694,7 @@ dd h3 a {
 	color: #b22222;
 }
 
-#footer .copy, 
+#footer .copy,
 #footer .rcopy {
 	font-size: 12px;
 	color: #999;
@@ -702,7 +702,7 @@ dd h3 a {
 	padding:20px 10px 0;
 }
 
-#footer .copy a, 
+#footer .copy a,
 #footer .rcopy a {
 	font-size: 12px;
 	color: #999;
@@ -829,7 +829,7 @@ footer h4 a {
 	margin-bottom: 10px;
 }
 
-.kanren.pop-box dd h5, 
+.kanren.pop-box dd h5,
 #side .kanren.pop-box dd h5 {
 	font-size: 17px;
 	font-weight: bold;
@@ -1074,7 +1074,7 @@ table th {
 
 .scroll-box::-webkit-scrollbar-track {
 	border-radius: 5px;
-	-webkit-border-radius: 5px; 
+	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	background: #f3f3f3;
 }
@@ -1159,11 +1159,11 @@ img.float-right {
 }
 
 /*マルリスト*/
-.post .maruno { 
+.post .maruno {
 	margin-bottom: 20px;
 }
 
-.post .maruno ol { 
+.post .maruno ol {
 	list-style-type: none;
 	counter-reset: st-section;
 	margin-left: 10px;
@@ -1193,11 +1193,11 @@ img.float-right {
 }
 
 /*チェックリスト*/
-.post .maruck { 
+.post .maruck {
 	margin-bottom: 20px;
 }
 
-.post .maruck ul { 
+.post .maruck ul {
 	list-style-type: none;
 	margin-left: 10px;
 	padding:0 20px 0 30px;
@@ -1249,7 +1249,7 @@ input:not([type=checkbox]):not([type=radio]):not([type=submit]),textarea,select 
 .wpcf7-submit{
 	width:100%;
 	border-radius:20px;
-	-webkit-border-radius: 20px;  
+	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	background:#f3f3f3;
 	color:#000;
@@ -1265,11 +1265,11 @@ input:not([type=checkbox]):not([type=radio]):not([type=submit]),textarea,select 
 }
 
 /*レスポンシブ用PC左右コンテンツ*/
-.responbox, 
-.responbox30, 
-.responbox40, 
-.responbox50, 
-.responbox60, 
+.responbox,
+.responbox30,
+.responbox40,
+.responbox50,
+.responbox60,
 .responbox70 {
 	margin-bottom:10px;
 }
@@ -1300,7 +1300,7 @@ input:not([type=checkbox]):not([type=radio]):not([type=submit]),textarea,select 
 }
 
 /*AmazonJS*/
-.post .amazonjs_item h4, 
+.post .amazonjs_item h4,
 .post .amazonjs_item h4 a {
 	color:#1a1a1a;
 	font-size:15px;
@@ -1431,7 +1431,7 @@ nav.st5,
 }
 
 #searchform {
-	border:#ccc 1px solid;
+	border:red 1px solid;
 }
 
 #s {
@@ -2147,7 +2147,7 @@ section {
 		line-height:60px;
 		padding: 5px 0;
 		margin:0 0 0 7px;
-	}	
+	}
 
 	.op-text2,
 	.op-text2 a {
@@ -2322,7 +2322,7 @@ section {
 	}
 
 	/* 任意記事サムネイルありタイトル名 */
-	.kanren.pop-box dd h5, 
+	.kanren.pop-box dd h5,
 	#side .kanren.pop-box dd h5 {
 	  font-size: 18px;
 	  line-height:27px;
@@ -2660,8 +2660,8 @@ section {
 	}
 
 	/*IEで要素がズレるのを対応*/
-	.ie7 .st-aside ul li, 
-	.ie8 .st-aside ul li, 
+	.ie7 .st-aside ul li,
+	.ie8 .st-aside ul li,
 	.ie9 .st-aside ul li {
 		display: list-item;
 		padding: 0;
